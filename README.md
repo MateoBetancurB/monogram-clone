@@ -1,4 +1,4 @@
 # monogram-clone
 web site monogram-clone
 
-url: https://www.frontendpractice.com/project/monogram
+url: https://monogramcc.com/shop/
