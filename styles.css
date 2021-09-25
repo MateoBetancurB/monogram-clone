@@ -126,5 +126,25 @@ p {
 	font-size: 9px;
 }
 .container__cards2 {
-	wid
+	max-width: 59vw;
+	margin: 0 auto;
+}
+
+.card2__img {
+	width: 100%;
+	height: 500px;
+}
+.section2__container--text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section2__container--text h3,
+p {
+	color: var(--blue);
+	margin-top: 3px;
+}
+.section2__paragraph {
+	margin-top: -5px;
+	font-size: 9px;
 }
