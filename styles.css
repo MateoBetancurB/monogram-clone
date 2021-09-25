@@ -8,9 +8,10 @@
 	--white: #f0efed;
 	--total-black: #000000;
 	--total-white: #ffffff;
+	--gray: #c1c1c1;
 }
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Prompt", sans-serif;
 	font-size: 62.5%;
 	overflow-x: hidden;
 }
@@ -60,14 +61,14 @@ body {
 }
 .navbar__container2 {
 	display: flex;
-	gap: 15px;
+	gap: 30px;
 	align-items: center;
 	padding-right: 15px;
 }
 .navbar__container2 li {
 	list-style: none;
 	color: var(--pink2);
-	font-size: 11px;
+	font-size: 14px;
 	font-weight: 300;
 }
 .navbar__container2 li:nth-child(5) {
@@ -85,8 +86,9 @@ body {
 }
 .header__h1 {
 	color: var(--blue);
-	font-size: 30px;
-	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: 400;
 }
 .header__paragraph {
 	margin-top: -10px;
@@ -116,14 +118,24 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
-.section1__container--text h3,
-p {
+.section1__container--text h3 {
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: bold;
 	color: var(--blue);
 	margin-top: 3px;
 }
+.section1__container--text p {
+	font-size: 15px;
+	color: var(--blue);
+	margin-top: 3px;
+}
+
 .section1__paragraph {
 	margin-top: -5px;
-	font-size: 9px;
+	font-size: 15px;
+	color: var(--blue);
+	font-weight: 300;
 }
 .container__cards2 {
 	max-width: 59vw;
@@ -138,13 +150,44 @@ p {
 	display: flex;
 	justify-content: space-between;
 }
-
-.section2__container--text h3,
-p {
+.section2__container--text h3 {
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: bold;
 	color: var(--blue);
 	margin-top: 3px;
 }
+.section2__container--text p {
+	font-size: 15px;
+	color: var(--blue);
+	margin-top: 3px;
+}
+
 .section2__paragraph {
 	margin-top: -5px;
-	font-size: 9px;
+	font-size: 15px;
+	color: var(--blue);
+	font-weight: 300;
+}
+.section3 {
+	height: 506px;
+	margin-top: 40px;
+	background-image: url(/assets/imgs/5.webp);
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	background-position: center;
+	background-color: var(--gray);
+}
+.section3__heading2 {
+	color: var(--blue);
+	text-transform: uppercase;
+	font-size: 37px;
+	text-align: center;
+	padding-top: 50px;
+}
+.section3__paragraph {
+	color: var(--blue);
+	font-size: 18px;
+	text-align: center;
+	margin-top: -15px;
 }
