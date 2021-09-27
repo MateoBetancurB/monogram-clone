@@ -15,6 +15,7 @@ body {
 	font-size: 62.5%;
 	overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
 	width: 10px;
 	background-color: var(--pink2);
@@ -182,7 +183,9 @@ body {
 	color: var(--blue);
 	text-transform: uppercase;
 	font-size: 37px;
+	letter-spacing: 7px;
 	text-align: center;
+	font-weight: 500;
 	padding-top: 50px;
 }
 .section3__paragraph {
@@ -190,4 +193,36 @@ body {
 	font-size: 18px;
 	text-align: center;
 	margin-top: -15px;
+}
+.section4 {
+}
+.section4__container--cards {
+	padding: 0 370px;
+	display: grid;
+	grid-template-columns: repeat(3, 400px);
+	margin-top: 50px;
+}
+.card {
+	width: 330px;
+}
+.card img {
+	width: 338px;
+	height: 338px;
+}
+.card div {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -10px;
+}
+.card h3 {
+	text-transform: uppercase;
+	color: var(--blue);
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+.card p {
+	font-size: 18px;
+	color: var(--blue);
+	font-weight: 300;
 }
