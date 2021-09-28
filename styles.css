@@ -226,3 +226,10 @@ body {
 	color: var(--blue);
 	font-weight: 300;
 }
+/* footer */
+.footer {
+	max-width: 100vw;
+	height: 450px;
+	background-color: var(--blue);
+}
+/* fin footer */
